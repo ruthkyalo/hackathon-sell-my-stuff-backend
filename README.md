@@ -1,6 +1,20 @@
-# Sell My Stuff Backend
+# Sell My Stuff Backend - Hackathon Project
 
-Sell My Stuff Backend is a Python FastAPI service that analyzes product images and generates optimized sales listings using AWS Bedrock's Claude Sonnet 4 model. Perfect for creating compelling marketplace descriptions and price suggestions.
+Sell My Stuff Backend is a Python FastAPI service that analyzes product images and generates optimized sales listings using AWS Bedrock's Claude Sonnet 4 model. 
+
+This project serves as the target application for aspiring AWS cloud engineers participating in our hackathon.
+
+## 🏆 Hackathon Challenge
+
+**Your Mission**: Deploy the complete infrastructure required to run this application using Terraform and GitHub Actions.
+
+This hackathon is designed to help aspiring cloud engineers gain hands-on experience with:
+- AWS infrastructure provisioning with Terraform
+- CI/CD pipelines with GitHub Actions
+- Serverless deployment strategies
+- AWS Bedrock integration
+- API Gateway and Lambda configuration
+- Monitoring and logging setup
 
 ## Features
 
@@ -115,6 +129,22 @@ sell_my_stuff/
 ├── main.py               # FastAPI application
 └── lambda_handler.py     # AWS Lambda entry point
 ```
+
+## 🚀 Join the Break Into Cloud Community
+
+This hackathon is part of the [Break Into Cloud](https://www.skool.com/cloud) community, where aspiring cloud engineers come together to:
+
+- **Build Real Projects**: Get hands-on experience with AWS, Terraform, and modern DevOps practices
+- **Get Hired**: Connect with opportunities and receive guidance on landing cloud engineering roles
+- **Learn Together**: Join 783+ members in a supportive environment focused on practical cloud skills
+
+### Need Help or Want to Participate?
+
+- **Join our community**: [Break Into Cloud on Skool](https://www.skool.com/cloud)
+- **Get support**: Ask questions, share your progress, and get feedback from fellow cloud engineers
+- **Future hackathons**: Stay updated on upcoming challenges and learning opportunities
+
+Whether you're just starting your cloud journey or looking to advance your skills, our community provides the resources and support you need to succeed.
 
 ## License
 MIT
