@@ -5,10 +5,6 @@ on:
     branches:
       - 'main'
 
-env:
-  AWS_REGION: "us-east-2"
-  S3_BUCKET: "simple-hackathon-bucket"
-
 permissions:
   id-token: write   # required for OIDC
   contents: read    # required for actions/checkout
@@ -33,3 +29,9 @@ jobs:
 
       - name: Package backend code
         run: ./package_code.sh
+
+      - name: Upload backend packages to S3
+        run: |
+          aws s3 cp lambda_package.zip s3://${{ secrets.BUCKET_NAME }}/
+          aws s3 cp dependencies.zip s3://${{ secrets.BUCKET_NAME }}/
+
