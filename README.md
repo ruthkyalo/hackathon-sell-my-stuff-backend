@@ -109,7 +109,7 @@ curl -X POST "http://localhost:8000/listings/analyze" \
 The project includes a Lambda handler for serverless deployment:
 
 ```python
-sell_my_stuff.lambda_handler.handler
+sell_my_stuff.lambda_handler.lambda_handler
 ```
 
 ## Tech Stack
